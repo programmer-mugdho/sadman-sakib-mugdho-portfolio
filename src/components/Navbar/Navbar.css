@@ -1,0 +1,21 @@
+.navbar {
+    padding: 25px;
+    padding-top: 15px;
+    color: #ffffffd9 !important;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffffd9 !important;
+}
+
+.btn-brand {
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #00cf5d;
+    background-color: transparent;
+}

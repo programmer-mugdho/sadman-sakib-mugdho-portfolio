@@ -1,0 +1,45 @@
+.skills {
+    padding: 100px 0px;
+}
+
+.skills .row {
+    /* padding-left: 100px; */
+}
+
+.skills .card-container {
+    padding: 15px 0 !important;
+}
+
+.skills .card {
+    position: relative;
+    height: 80px;
+    background-color: #1d293a;
+}
+
+.skills .card h4 {
+    font-size: 24px;
+    font-weight: 900 !important;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: #ffffffd9;
+}
+
+.skills .card p {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #00cf5d;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.progress-ar {
+    height: 10px;
+    position: absolute;
+    background-color: #00cf5d;
+    border-radius: 4px;
+    bottom: 0;
+}

@@ -1,0 +1,38 @@
+.contact {
+    color: #ffffffd9;
+    margin-top: 60px;
+}
+
+.contact .row {
+    /* padding-right: 100px; */
+}
+
+.contact .row .col-md-6 {
+    position: relative;
+}
+
+.text-right {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    right: 0;
+    transform: translateY(-200px)
+}
+
+.form-control {
+    background-color: #1d293a;
+    border: #172435;
+    color: #ffffffd9;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.form-control::placeholder{
+    color: gray;
+    font-weight: bold;
+}
+.form-control:focus{
+    outline: none;
+    background-color: #1d293a;
+    color: #ffffffd9;
+}

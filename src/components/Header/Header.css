@@ -1,0 +1,67 @@
+.header {
+    padding-bottom: 150px;
+}
+
+.intro {
+    /* padding-left: 100px; */
+    padding-top: 70px;
+}
+
+.intro p {
+    font-size: 22px;
+    color: #00cf5d;
+    margin-bottom: 5px;
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.intro h3 {
+    color: #00cf5d;
+    font-weight: bold;
+}
+
+.expert {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffffd9;
+}
+
+.expert span {
+    margin-right: 25px;
+}
+
+.action {
+    margin-top: 20px;
+}
+
+.action a {
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.my-button {
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #00cf5d;
+    background-color: #00cf5d;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.action a:nth-child(1) {
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #00cf5d;
+    background-color: #00cf5d;
+}
+
+.action a:nth-child(2) {
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #00cf5d;
+    background-color: transparent;
+}
