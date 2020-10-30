@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../images/Icon - 1logo.png'
+import pdf from '../../images/Resume of Sadman Sakib Mugdho.pdf'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-brand px-3" target='_blank' href="https://drive.google.com/file/d/1Tdm8zCEk5vddsbxR5matYyJkyt6-Ac96/view?usp=sharing">Resume</a>
+                        <a class="nav-link btn btn-brand px-3" target='_blank' href={pdf} download>Resume</a>
                     </li>
                 </ul>
             </div>
