@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden !important;
+}
+
 footer {
     height: 80px;
     background-color: #1d293a;
@@ -11,6 +15,7 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
 }
-footer p{
+
+footer p {
     transform: translateY(10px)
 }
